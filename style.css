@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    position: sticky;
+    top: 0;
+}
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+.navTopo{
+    display: flex;
+    list-style: none;
+    margin: 50px;
+}
+.navTopo li a{
+    padding: 40px;
+    color: white;
+    text-decoration: none;
+}
+.atributos{
+    height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.3em;
+    color: yellow;
+}
+.atributos p{
+    color: white;
+}
+.atributos ul{
+    margin: 100px;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.subtitulo{
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    background: chartreuse;
+}
+h2{
+    color: white;
+}
+.wrapper{
+    background-position: center;
+    background-image:linear-gradient(to bottom, transparent 0%, #131313 70%), url(img/background-pizza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table{
+    text-align: center;
+    flex-basis: 80%;
+    min-height: 70vh;
+    color: white;
+    background-color: #2A2A2A;
+    border-collapse: collapse;
+    margin: 15px;
+}
+tr, td, th{
+    border: 2px solid #131313;
+}
+th{
+    padding: 25px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+    overflow-x: auto;
+}
+.formulario{
+    padding-top: 100px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+    color: white;
+}
+input, textarea{
+    color: white;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 10px;
+    width: 100%;
+    background-color: #131313;
+    border: 1px rgba(255, 255, 255, 0.466) solid;
+}
+fieldset{
+    border: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A2A2A;
+    color: white;
+    padding: 30px;
+}
+@media (max-width: 720px) {
+    img{
+        width: 100px;
+    }
+}

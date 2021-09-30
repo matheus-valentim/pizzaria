@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzarria</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/pizza.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <section class="topo">
+                <a href="#"><img src="img/logo-helloPizza.png" alt="logo pizza"></a>
+                <nav>
+                    <ul class="navTopo">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sabores">Sabores</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </header>
+        <section id="home" class="atributos">
+            <ul type="circle">
+                <li><p>Qualidade</p></li>
+                <li><p>Sabor</p></li>
+                <li><p>Praticidade</p></li>
+                <li><p>Agilidade</p></li>
+            </ul>
+        </section>
+        <section class="imagens">
+            <h2 id="sabores">Sabores</h2>
+            <img src="img/sabores-pizzas.png" alt="sabores de pizza">
+        </section>
+        <section class="table">
+            <table>
+                <thead>
+                    <th>Sabor</th>
+                    <th>Queijo e molho</th>
+                    <th>Salada</th>
+                    <th>Carne</th>
+                    <th>Azeite</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <p>Calabresa</p>
+                        </td>
+                        <td rowspan="6">
+                            Sim
+                        </td>
+                        <td>Não</td>
+                        <td>Não</td>
+                        <td>Não</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Mozzarella</p>
+                        </td>
+                        <td>Não</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Pepperoni</p>
+                        </td>
+                        <td>Não</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Marguerita</p>
+                        </td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Portguesa</p>
+                        </td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                        <td>Sim</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Alho</p>
+                        </td>
+                        <td>Não</td>
+                        <td>Não</td>
+                        <td>Não</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <section class="formulario">
+        <h2 id="contato">Contato</h2>
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Nome:</legend>
+                <input type="text" placeholder="Digite seu nome">
+            </fieldset>
+            <fieldset>
+                <legend>Email:</legend>
+                <input type="email" placeholder="Digite seu Email">
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem:</legend>
+                <textarea cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+                <input type="submit">
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <img src="img/logo-helloPizza.png" alt="logo pizza">
+        <p>Todos os direitos reservados para © 2021 - teste</p>
+    </footer>
+</body>
+</html>
